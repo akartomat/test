@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./src/css/input.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+    <body class="flex flex-col md:flex-row items-start px-12">
+        <div class="w-full md:w-1/2">
+            <h1 class="text-2xl font-extrabold mb-4 pt-24">Keranjang</h1>
+            <div class="flex items-center mb-6 pt-12">
+                <img class="w-32 h-32 object-contain mr-8" src="../src/img/pexels-john-tekeridis-249538.jpg" alt="Gambar Barang">
+                <div>
+                    <p class="text-lg font-bold mb-2">Macbook M1 2077 Ultra Pro Max Extreme Sawadikap Ceunah</p>
+                    <p class="text-blue-600 font-bold mb-4">Rp100.000</p>
+                    <div class="flex items-center">
+                        <div class="flex gap-8">
+                            <div>
+                                <label for="quantity" class="text-lg font-bold mr-4">Jumlah:</label>
+                                <input type="number" id="quantity" name="quantity" value="1" min="1" class="border border-gray-300 rounded-lg py-2 px-4 text-lg w-24 text-center">
+                            </div>
+                            <div>
+                                <label for="quantity" class="text-lg font-bold mr-4">Sewa/Bulan:</label>
+                                <input type="number" id="quantity" name="quantity" value="1" min="1" class="border border-gray-300 rounded-lg py-2 px-4 text-lg w-24 text-center">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center mb-6 pt-12">
+                <img class="w-32 h-32 object-contain mr-8" src="../src/img/pexels-sebastian-pichard-6894428.jpg" alt="Gambar Barang">
+                <div>
+                    <p class="text-lg font-bold mb-2">Supra MK-5 "supra bapak edition"</p>
+                    <p class="text-blue-600 font-bold mb-4">Rp100.000</p>
+                    <div class="flex items-center">
+                        <label for="quantity" class="text-lg font-bold mr-4">Jumlah:</label>
+                        <input type="number" id="quantity" name="quantity" value="1" min="1" class="border border-gray-300 rounded-lg py-2 px-4 text-lg w-24 text-center">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full md:w-1/2 mt-36 px-8 py-10">
+            <div class="rounded-lg shadow-cart_sum py-8 px-8">
+                <p class="text-lg font-bold mb-4">Ringkasan Belanja</p>
+                <div class="mb-4">
+                    <p class="text-lg">Supra bapak (4)</p>
+                </div>
+                <div class="flex items-center gap-56 pt-8">
+                    <label class="text-lg font-bold block">Total Harga:</label>
+                    <span class="text-lg font-bold block ">Rp100.000</span>
+                </div>
+            </div>
+        </div>
+        </body>
+</html>
+
+
+

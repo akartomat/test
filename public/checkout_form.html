@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./src/css/input.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<!-- <body class="flex flex-col md:flex-row items-start ">
+    <div class="max-w-md mx-auto pt-36">
+        <form>
+          <div class="mb-4 flex justify-between gap-2">
+            <label for="nama" class=" block font-bold mb-2 ml-auto">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama" class="shadow appearance-none border rounded w-70 h-10 ml-32 py-2 px-32 block text-gray-700 leading-tight focus:outline-none focus:shadow-outline ">
+          </div>
+          <div class="mb-4 flex justify-between gap-2">
+            <label for="nama" class=" block font-bold mb-2 ml-auto">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama" class="shadow appearance-none border rounded w-70 h-10 ml-32 py-2 px-32 block text-gray-700 leading-tight focus:outline-none focus:shadow-outline ">
+          </div>
+          <div class="mb-4 flex justify-between gap-2">
+            <label for="nama" class=" block font-bold mb-2 ml-auto">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama" class="shadow appearance-none border rounded w-70 h-10 ml-32 py-2 px-32 block text-gray-700 leading-tight focus:outline-none focus:shadow-outline ">
+          </div>
+          <div class="mb-4 flex justify-between gap-16">
+            <label for="alamat" class="block font-bold mb-2">Alamat</label>
+            <textarea id="alamat" name="alamat" class="shadow appearance-none border rounded w-70 h-16 py-2 px-36 focus:outline-none focus:shadow-outline"></textarea> 
+            <textarea type="text" id="nama" name="nama" class="shadow appearance-none border rounded w-70 h-10 ml-32 py-2 px-32 block text-gray-700 leading-tight focus:outline-none focus:shadow-outline "></textarea>
+          </div>
+          <div class="mb-4 flex justify-between">
+            <label for="file" class="font-bold">Unggah bukti transfer</label>
+            <label class="inline-flex items-center px-4 py-2 bg-blue-500 text-white rounded cursor-pointer hover:bg-blue-700" name="file">
+              <span>Pilih file</span>
+              <input type="file" class="sr-only">
+            </label>
+          </div>
+          <div class="flex items-center justify-between">
+            <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Simpan</button>
+          </div>
+        </form>
+      </div>
+      <div class="w-full md:w-1/2 px-32 py-18">
+        <div class="rounded-lg shadow-cart_sum py-8 px-12">
+            <p class="text-lg font-bold mb-4">Ringkasan Belanja</p>
+            <div class="mb-4">
+                <p class="text-lg">Supra bapak (4)</p>
+            </div>
+            <div class="flex items-center gap-52 pt-8">
+                <label class="text-lg font-bold">Total Harga:</label>
+                <span class="text-lg font-bold">Rp100.000</span>
+            </div>
+        </div>
+    </div>
+</body> -->
+<body class="flex flex-col md:flex-row items-start px-22">
+  <div class="max-w-2xl mx-auto pt-36 ">
+    <form>
+      <div class="mb-4 grid grid-cols-3 justify-items-start gap-8 pb-8">
+        <label for="nama" class="block font-bold mb-2">Nama Lengkap</label>
+        <input type="text" id="nama" name="nama" class="shadow col-span-2 appearance-none border rounded h-10 bg-gray-100 py-2 w-full block ">
+      </div>
+      <div class="mb-4 grid grid-cols-3 justify-items-start gap-8 pb-8">
+        <label for="nama" class=" block font-bold mb-2 ">No.Telp</label>
+        <input type="text" id="nama" name="nama" class="shadow col-span-2 appearance-none border rounded h-10 bg-gray-100 py-2 w-full block  ">
+      </div>
+      <div class="mb-4 grid grid-cols-3 justify-items-start gap-8 pb-8">
+        <label for="nama" class=" block font-bold mb-2 ">Provinsi</label>
+        <input type="text" id="nama" name="nama" class="shadow col-span-2 appearance-none border rounded h-10 bg-gray-100 py-2 w-full block  ">
+      </div>
+      <div class="mb-4 grid grid-cols-3 justify-items-start gap-8 pb-8">
+        <label for="alamat" class="block font-bold mb-2">Alamat</label>
+        <textarea type="text" id="nama" name="nama" class="shadow col-span-2 appearance-none border bg-gray-100 rounded h-16 py-2 w-full block leading-tight focus:outline-none focus:shadow-outline "></textarea>
+      </div>
+      <div class="mb-4 grid grid-cols-3 justify-items-start gap-8 pb-8">
+        <label for="file" class="font-bold">Unggah bukti transfer</label>
+        <label class="col-span-2 w-full px-4 py-2 bg-blue-500 text-white rounded cursor-pointer hover:bg-blue-700" name="file">
+          <span>Pilih file</span>
+          <input type="file" class="sr-only">
+        </label>
+      </div>
+      <div class="grid grid-cols-3 justify-items-end">
+        <button type="submit" class="col-start-3 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Simpan</button>
+      </div>
+    </form>
+  </div>
+  <div class="w-full md:w-1/2 mt-36 px-8 py-10">
+            <div class="rounded-lg shadow-cart_sum py-8 px-8">
+                <p class="text-2xl font-bold ">Pembayaran</p>
+                <p class="text-md font-bold mb-4">Silahkan transfer ke</p>
+                <div class="mb-4">
+                    <p class="text-lg font-bold mb-2 pt-2">Bank BCA</p>
+                    <div class="flex ">
+                      <div class="text-gray-400">
+                        <p class="text-md">No.Rek</p>
+                        <p class="text-md">Total bayar</p>
+                      </div>
+                      <div class="ml-64 text-gray-400">
+                        <p>: xxxxxx34398</p>
+                        <p>: Rp50.000</p>
+
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </body>
+</html>
