@@ -1,0 +1,14 @@
+#tr{
+    background-color: brown;
+}
+
+#trtengah{
+    background-color: beige;
+}
+
+#gambar{
+    object-fit: contain;
+    object-position: 120% 2%;
+    width: 30%;
+    height: 30%;
+}

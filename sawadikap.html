@@ -1,0 +1,87 @@
+
+<fieldset>
+    <legend align="center">Informasi Mahasiswa</legend>
+    <table height=1% width=50% border="0">
+    <tr>
+        <td>
+         No ujian
+         </td>
+        <td>    
+        : ...(Isi No Ujian Anda)...
+        </td>
+    </tr>
+    <tr>
+        <td>
+        NIM
+        </td>
+        <td>
+        : ...(Isi NIM Anda)...
+        </td>
+    <tr>
+        <td>
+        Nama Lengkap
+        </td>
+        <td>: ...(Isi Nama Anda)...</td>
+    </tr>
+</table>
+</fieldset>
+    <form action="hasil.php" method="post">
+    <fieldset>
+        <legend align="center">Form Registrasi Beasiswa Fakultas - Data Diri</legend>
+        <table height=1% width=73% border="0">
+        <tr>
+            <td>NIM <font color="red"><sup>*</sup></font> </td>
+            <td>: <input type="text" name="nim" size="20" required>
+            </td>
+        </tr>
+        <tr>
+            <td>Nama <font color="red"><sup>*</sup></font> </td>
+            <td>: <input type="text" name="nama"size="20" required></td>
+        </tr>
+        <tr>
+            <td>Email <font color="red"><sup>*</sup></font> </td>
+            <td>: <input type="text" name="email" size="20" required></td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin </td>
+            <td>: <input type="radio" name="sex" value="p" > Laki-laki <input type="radio" name="sex" value="w"> Perempuan
+            </td>
+        </tr>
+        <tr>
+            <td>Tanggal Lahir </td>
+            <td>: <input type="date" name="TTL"size="20"></td>
+        </tr>
+        <tr>
+            <td>Agama </td>
+            <td>: <input type="text" name="agama"size="20" value="Islam" required></td>
+        </tr>
+        <tr>
+            <td>Alamat </td>
+            <td>:<textarea name="alamat" rows="8" cols="30" required></textarea></td>
+        </tr>
+        <tr>
+            <td>Kodepos </td>
+            <td>: <input type="text" name="kodepos"></td>
+        </tr>
+        <tr>
+            <td>No Telp. </td>
+            <td>: <input type="text" name="notelp"></td>
+        </tr>
+        <tr>
+            <td>Pas Foto 3x4 </td>
+            <td>: <input type="file" name="pasfoto"></td>
+        </tr>
+        <tr>
+            <td>
+            <input type="submit" value="submit">
+            </td>
+        </tr>
+    </table>
+    </fieldset>
+</form>
+
+
+
+    
+
+  
